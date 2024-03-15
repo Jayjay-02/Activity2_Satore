@@ -1,0 +1,260 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('BACKGROUND.GIF');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .layout-container {
+    display: flex;
+    flex-direction: row; 
+  }
+  .sidebar-container-main {
+    width: 400px;
+    height: auto;
+    background: goldenrod;
+    margin: 2rem;
+    margin-left: 4.4rem;
+    padding-bottom: 0.1rem;
+  }
+  
+  .sidebar-container {
+    display: block;
+  }
+  .sidebar-container img {
+    width: 100%;
+    height: 300px;
+  }
+  .description-container {
+    margin: 0 1rem;
+    line-height: 2rem;
+  }
+  .description-container i {
+    margin: 0 0.4rem;
+    margin-right: 1rem;
+    color: green;
+    font-size: 1.2rem;
+  }
+  .skills  {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+  }
+  .skills-container {
+    margin: 1rem;
+  }
+  .skills-container i {
+    margin: 0 0.4rem;
+    margin-right: 1rem;
+    color: green;
+    font-size: 1.2rem;
+  }
+  .skills-container span {
+    font-size: 1.4rem;
+  }
+  .progress-bar {
+    width: 100%;
+  }
+  
+  .progress-bar span {
+    padding: 0 1.4rem; 
+  }
+  
+  .progress {
+    margin: 1rem; 
+    height: 20px;
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    position: relative; 
+  }
+  
+  .progress-filled {
+    height: 100%; 
+    background-color: #4CAF50; 
+    width: 90%; 
+    border-radius: 10px; 
+  }
+  
+  .progress-blank {
+    height: 100%; 
+    width: 10%; 
+    border-radius: 10px; 
+    position: absolute;
+    top: 0; 
+    left: 90%; 
+  }
+  
+  .progress-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  .progress-filled-photography {
+    height: 100%; 
+    background-color: #4CAF50; 
+    width: 80%; 
+    border-radius: 10px; 
+  }
+  .progress-filled-illustrator {
+    height: 100%; 
+    background-color: #4CAF50; 
+    width: 75%; 
+    border-radius: 10px; 
+  }
+  .progress-filled-media {
+    height: 100%; 
+    background-color: #4CAF50; 
+    width: 50%; 
+    border-radius: 10px; 
+  }
+  .language {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+  }
+  .language-container {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: green;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .language-container i {
+    margin: 0 0.4rem;
+    margin-right: 1rem;
+    color: green;
+    font-size: 1.2rem;
+  }
+  .progress-filled-english {
+    height: 100%;
+    background-color: #4CAF50; 
+    width: 100%; 
+    border-radius: 10px; 
+  }
+  .progress-filled-spanish {
+    height: 100%; 
+    background-color: #4CAF50; 
+    width: 50%; 
+    border-radius: 10px; 
+  }
+  .progress-filled-german {
+    height: 100%; 
+    background-color: #4CAF50; 
+    width: 25%; 
+    border-radius: 10px; 
+  }
+  /* Main Section */
+  /* Common styles for sections */
+  .work-experience,
+  .web-dev,
+  .graphic-designer,
+  .education,
+  .london-container,
+  .coding {
+    margin-top: 1.4rem;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container styling */
+  .work-experience-container,
+  .web-dev-container,
+  .graphic-designer-container,
+  .education-container,
+  .london-school-container,
+  .coding-container-container {
+    margin-top: 1.4rem;
+  }
+  
+  /* Paragraph styling */
+  .work-experience-container p,
+  .web-dev-container p,
+  .graphic-designer-container p,
+  .education-container p,
+  .london-school-container p,
+  .coding-container-container p {
+    margin-top: 1rem;
+  }
+  
+  /* Icon styling */
+  .work-experience-container .fa-calendar,
+  .web-dev .fa-calendar,
+  .graphic-designer .fa-calendar,
+  .education-container .fa-calendar,
+  .london-school-container .fa-calendar,
+  .coding-container-container .fa-calendar {
+    padding-right: 1rem;
+  }
+  
+  /* Date color */
+  .date {
+    color: purple;
+  }
+  
+  /* Main Section */
+  main section i {
+    color: purple;
+  }
+  
+  /* Work Experience specific styles */
+  .work-experience {
+    background: white;
+    width: 93%;
+    margin: 2rem;
+    margin-left: 0;
+    padding: 2rem;
+  }
+  .work-experience-container h2 {
+    margin-bottom: 2.5rem;
+  }
+  .work-experience-container .fa-suitcase {
+    padding-right: 1rem;
+  }
+  .work-experience {
+    line-height: 1.5rem;
+  }
+  .work-experience-container .current {
+    border: 2px solid purple;
+    background: purple;
+    color: white;
+    border-radius: 4px;
+    padding: 0.3em;
+  }
+  
+  /* Education specific styles */
+  .education {
+    background: white;
+    width: 93%;
+    margin: 2rem;
+    margin-left: 0;
+    padding: 2rem;
+  }
+  .education-container .fa-certificate {
+    padding-right: 1rem;
+  }
+  .education {
+    line-height: 1.5rem;
+  }
+  
+  /* Footer styling */
+  footer {
+    background: palevioletred;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    line-height: 2rem;
+  }
+  footer i {
+    transition: 0.3s;  
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  footer i:hover {
+    opacity: 0.5
+  }
